@@ -8,7 +8,7 @@ import java.util.TimeZone;
 
 import util.Keyboard;
 
-public class testData1 {
+public class testDate1 {
 
 	public static void main(String[] args) {
 		// get the supported ids for GMT+01:00 (Heure d'Hiver en France)
