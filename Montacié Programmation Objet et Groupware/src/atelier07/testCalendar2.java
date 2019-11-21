@@ -18,6 +18,8 @@ public class testCalendar2 {
 				SimpleTimeZone pdt = new SimpleTimeZone(1 * 60 * 60 * 1000, ids[0]);
 				Calendar2 calendar = new Calendar2(pdt);
 				System.out.println(calendar.cours());
+				calendar.creation();
+				calendar.afficher();
 
 	}
 
