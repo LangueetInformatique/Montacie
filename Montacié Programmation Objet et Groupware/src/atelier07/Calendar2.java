@@ -1,23 +1,42 @@
 package atelier07;
 
+import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 import java.util.TimeZone;
 
 public class Calendar2 extends GregorianCalendar {
-	
-	boolean cours;
+	private boolean cours;
+	private int  jourS, heure, minute, seconde; 
 
-	/** l'attribut cours est mis à vrai si l'objet est créé pendant la période jeudi (9h30-12h)
-	 * 
-	 */
+	
 	public Calendar2() {
 		
 	}
 
+	/** l'attribut cours est mis à vrai si l'objet est créé pendant la période jeudi (9h30-12h)
+	 * 
+	 */
 	public Calendar2(TimeZone zone) {
 		super(zone);
-		// TODO Auto-generated constructor stub
+		this.setTime(new Date());
+		jourS = this.get(Calendar.DAY_OF_WEEK);
+		heure = this.get(Calendar.HOUR);
+		minute = this.get(Calendar.MINUTE);
+		seconde = this.get(Calendar.SECOND);
+		cours = verification();
+	}
+	
+	private boolean verification() {
+		if (jourS != 5) return false;
+		if ((heure == 10) || (heure == 11)) return true;
+		if ((heure == 9) && (minute > 30)) return true;
+		return false;
+		}
+	
+	public boolean cours() {
+		return cours;
 	}
 
 	public Calendar2(Locale aLocale) {

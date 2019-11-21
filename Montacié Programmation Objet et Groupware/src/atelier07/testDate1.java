@@ -43,7 +43,9 @@ public class testDate1 {
 		seconde = calendar.get(Calendar.SECOND);
 		
 		System.out.print(jour+"/"+mois+"/"+annee + " ");
-		System.out.print(heure+":"+minute+":"+seconde);
+		System.out.println(heure+":"+minute+":"+seconde);
+		
+		System.out.print(Calendar.DAY_OF_WEEK);
 		
 		
 
