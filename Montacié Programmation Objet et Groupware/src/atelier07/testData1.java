@@ -6,6 +6,8 @@ import java.util.GregorianCalendar;
 import java.util.SimpleTimeZone;
 import java.util.TimeZone;
 
+import util.Keyboard;
+
 public class testData1 {
 
 	public static void main(String[] args) {
@@ -27,6 +29,18 @@ public class testData1 {
 		int heure = calendar.get(Calendar.HOUR);
 		int minute = calendar.get(Calendar.MINUTE);
 		int seconde = calendar.get(Calendar.SECOND);
+		
+		System.out.print(jour+"/"+mois+"/"+annee + " ");
+		System.out.println(heure+":"+minute+":"+seconde);
+		
+		String s = Keyboard.getString("delai");
+		
+		jour = calendar.get(Calendar.DAY_OF_MONTH);
+		mois = calendar.get(Calendar.MONTH) + 1;
+		annee =  calendar.get(Calendar.YEAR);
+		heure = calendar.get(Calendar.HOUR);
+		minute = calendar.get(Calendar.MINUTE);
+		seconde = calendar.get(Calendar.SECOND);
 		
 		System.out.print(jour+"/"+mois+"/"+annee + " ");
 		System.out.print(heure+":"+minute+":"+seconde);
