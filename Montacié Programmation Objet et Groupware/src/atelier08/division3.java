@@ -1,0 +1,23 @@
+package atelier08;
+
+public class division3 {
+
+	public static void main(String[] args) {
+		try {
+			division();
+		} catch (ArithmeticException o) {
+			System.out.println("j'ai capturé l'exception");
+		}
+
+	}
+
+	public static void division() throws ArithmeticException {
+		int i = 1000, j;
+		do {
+			i--;
+			j = 1 / i;
+		} while (i >= 0);
+		System.out.println("fin du programme");
+	}
+
+}
