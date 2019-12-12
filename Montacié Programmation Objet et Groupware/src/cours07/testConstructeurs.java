@@ -20,7 +20,7 @@ public class testConstructeurs {
 		catch (IOException e) {} System.out.println(s3); 
 			// propri?t?s des constructeurs
 
-		char[] tc = {'p', 'r', 'o', 'p', 'r', 'i', 'ï¿½', 't', 'ï¿½', 's'}; 
+		char[] tc = {'p', 'r', 'o', 'p', 'r', 'i', 'é', 't', 'é', 's'}; 
 		String s4 = new String(tc); System.out.println(s4);
 			//   propriï¿½tï¿½s
 		String s5 = new String(tc, 6, 3); System.out.println(s5);
