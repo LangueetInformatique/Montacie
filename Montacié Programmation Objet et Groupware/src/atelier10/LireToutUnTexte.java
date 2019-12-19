@@ -22,7 +22,7 @@ public class LireToutUnTexte {
 			BufferedReader br = new BufferedReader(new FileReader(ft));
 			while ((ligne = br.readLine()) != null) {
 				// System.out.println(ligne);
-				Stexte += ligne;
+				Stexte += ligne + "\n";
 			}
 
 		}
@@ -39,7 +39,11 @@ public class LireToutUnTexte {
 	 * @return nombre d'occurences
 	 */
 	public int Chercher(String s) {
-		return 0;
+		int deb = -1, nOcc = 0;
+		while ((deb = Stexte.indexOf(s, deb+1)) != -1)
+			nOcc++;
+		
+		return nOcc;
 	}
 
 	/**
