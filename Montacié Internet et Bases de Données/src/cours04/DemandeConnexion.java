@@ -14,7 +14,7 @@ public class DemandeConnexion {
 		// cr�ation de la socket
 		Socket s = new Socket();
 		InetAddress addr1 = null;
-		int port1 = 32005, port2 = 32006;
+		int port1 = 32503, port2 = 32503;
 		try {
 			addr1 = InetAddress.getLocalHost();
 		}
@@ -29,7 +29,7 @@ public class DemandeConnexion {
 		s.bind(saddr1);
 		
 		//	adresse de la machine distante
-		InetAddress addr2 = InetAddress.getByName("192.168.1.102");
+		InetAddress addr2 = InetAddress.getByName("192.168.1.71");
 		InetSocketAddress saddr2 = new InetSocketAddress(addr2, port2);
 		
 		// demande de connexion

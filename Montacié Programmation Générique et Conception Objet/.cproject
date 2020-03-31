@@ -20,8 +20,8 @@
 				<configuration artifactName="${ProjName}" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cross.base.644699793" name="Par défaut" parent="org.eclipse.cdt.build.core.emptycfg">
 					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.644699793.1522822877" name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.952140195" name="Cross GCC">
-							<option id="cdt.managedbuild.option.gnu.cross.prefix.193832339" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
-							<option id="cdt.managedbuild.option.gnu.cross.path.1129307710" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path"/>
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.193832339" name="Préfixe" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1129307710" name="Chemin d’accès" superClass="cdt.managedbuild.option.gnu.cross.path"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.270555171" isAbstract="false" osList="all"/>
 							<builder id="cdt.managedbuild.builder.gnu.cross.1948544150" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder">
 								<outputEntries>
@@ -31,7 +31,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="tp01|cours08|cours06|cours05|cours04|cours03|cours02|cours01" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="cours08|cours06|cours05|cours04|cours03|cours02|cours01|tp01" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
