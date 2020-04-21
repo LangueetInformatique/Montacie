@@ -13,14 +13,14 @@ public class EnvoiMessage
 	private PrintWriter to = null;
 	private Socket s;
 	
-	/** Création d'un connexion TCP avec le port du MTA 
+	/** Creation d'un connexion TCP avec le port du MTA 
 	 * 
 	 * @param SMTP nom du MTA
-	 * @param port port du MTA (en général 25)
+	 * @param port port du MTA (en general 25)
 	 */
 	public EnvoiMessage(String SMTP, int port)
 	{
-		// création de la socket
+		// creation de la socket
 		s = new Socket();
 		InetAddress MUA = null;
 		try {
@@ -42,7 +42,7 @@ public class EnvoiMessage
 		
 		// demande de connexion
 		s.connect(saddr2);
-		System.out.println("Connexion établie entre " +
+		System.out.println("Connexion etablie entre " +
 				s.getLocalSocketAddress() + " et " +
 				s.getRemoteSocketAddress());
 	    }
@@ -50,19 +50,19 @@ public class EnvoiMessage
 			System.out.println("erreur d'ouverture");
 			}
 	
-	// Création des flots
+	// Creation des flots
 	try {
 	from = new BufferedReader(new InputStreamReader(s.getInputStream()));
 	to = new PrintWriter(s.getOutputStream(), true);
 	}
 	catch (IOException exp){
-		System.out.println("erreur de création des flots");
+		System.out.println("erreur de creation des flots");
 		}
 	}
 	
 	/** Envoie du message au serveur de mail
 	 * 
-	 * @param origin adresse mail de l'expéditeur
+	 * @param origin adresse mail de l'expediteur
 	 * @param dest adresse mail du destinataire
 	 * @param message
 	 */
@@ -88,13 +88,13 @@ public class EnvoiMessage
 			System.err.print(sMUA + " "); to.println(sMUA); 
 			sMTA = from.readLine(); System.err.println(sMTA);
 				
-		}catch( Exception e) {System.out.println("Erreur réseau");}		
+		}catch( Exception e) {System.out.println("Erreur reseau");}		
 	}
 	
 	/** fermeture de la connexion */
 	public void fin() {
 		try {s.close(); }
-		catch( Exception e) {System.out.println("Erreur réseau");}	
+		catch( Exception e) {System.out.println("Erreur reseau");}	
 	}
 	
 	
