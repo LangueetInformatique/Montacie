@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"atelier08","c":"Aleat","l":"Aleat(int)","url":"%3Cinit%3E(int)"},{"p":"atelier08","c":"Aleat","l":"get()"}]
