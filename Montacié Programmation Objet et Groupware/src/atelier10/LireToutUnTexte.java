@@ -1,6 +1,9 @@
 package atelier10;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class LireToutUnTexte {
 	private String Stexte;
@@ -11,6 +14,19 @@ public class LireToutUnTexte {
 	 * @param ft descripteur du fichier
 	 */
 	public LireToutUnTexte(File ft) {
+		String ligne = null;
+		Stexte = "";
+
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(ft));
+			while ((ligne = br.readLine()) != null) {
+				Stexte += ligne + "\n";
+			}
+
+		}
+
+		catch (IOException e) {
+		}
 	}
 
 	/**
