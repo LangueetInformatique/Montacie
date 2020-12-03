@@ -28,6 +28,13 @@ public class LireToutUnTexte {
 		catch (IOException e) {
 		}
 	}
+	
+	/** affichage du contenu de Stexte
+	 * 
+	 */
+	public void afficher() {
+		System.out.println(Stexte);
+	}
 
 	/**
 	 * Recherche du nombre d'occurences de s dans sTexte
