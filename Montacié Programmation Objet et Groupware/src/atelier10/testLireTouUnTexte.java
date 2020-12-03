@@ -8,7 +8,8 @@ public class testLireTouUnTexte {
 	public static void main(String[] args) {
 		
 		LireToutUnTexte lt = new LireToutUnTexte(new File("livres/adelaide.txt"));
-		lt.afficher();
+		// lt.afficher();
+		System.out.println(lt.Chercher("Hautcastel"));
 		
 	}
 

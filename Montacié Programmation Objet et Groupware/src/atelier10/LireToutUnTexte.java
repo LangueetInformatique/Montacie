@@ -45,7 +45,11 @@ public class LireToutUnTexte {
 	 */
 	public int Chercher(String s) {
 
-		return 0;
+		int deb = -1, nOcc = 0;
+		while ((deb = Stexte.indexOf(s, deb+1)) != -1)
+			nOcc++;
+		
+		return nOcc;
 	}
 
 	/**
