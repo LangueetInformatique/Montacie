@@ -1,5 +1,7 @@
 package atelier11;
 
+import java.awt.GridLayout;
+
 public class Partie2 {
 	
 	/*
@@ -16,4 +18,12 @@ public class Partie2 {
 	 * GridLayout
 	 */
 
+	/* 
+	 * Créer un plan de la salle D219 sous la forme d’une grille 5x4 en indiquant les emplacements de chaque étudiant. 
+	 * 
+	 * Ajouter sur le référentiel le fichier listeEtudiants contenant vos noms, prénoms et emplacement sur le plan
+	 * 
+	 */
+	GridLayout salle219 = new GridLayout(5, 4);
+	
 }
