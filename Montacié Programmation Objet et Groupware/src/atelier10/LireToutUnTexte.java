@@ -58,8 +58,23 @@ public class LireToutUnTexte {
 	 * @param s      chaîne cherchée
 	 * @param taille taille du contexte
 	 */
-	public void ChercherVoir(String s, int taille) {
-
-		return;
+	public static String ChercherVoir(String texte, String chaine, int Contexte_mots) {
+		
+		String contexte;
+		if(texte.contains(chaine)) {
+			
+			
+			int index_start = texte.indexOf(chaine) - (Contexte_mots) ;
+			int index_end = texte.indexOf(chaine) + (Contexte_mots + chaine.length());
+			
+			contexte = texte.substring(index_start,index_end);
+		}
+		else {
+			
+			contexte = null;
+			System.out.println("la chaine cherchée n'est pas dans le texte");
+		}
+		
+		return contexte;
 	}
 }
