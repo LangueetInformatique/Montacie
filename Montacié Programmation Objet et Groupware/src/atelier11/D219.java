@@ -22,6 +22,7 @@ public class D219 {
 		String nom = "Montacié";
 		String[] prenoms = {"Claude1","Claude2"};
 		Color c = Color.magenta;
+		
 		PanneauPrenom pp1 = new PanneauPrenom(c, nom, prenoms);
 		p.add(pp1);
 		
