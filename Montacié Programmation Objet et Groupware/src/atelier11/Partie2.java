@@ -25,5 +25,5 @@ public class Partie2 {
 	 * 
 	 */
 	GridLayout salle219 = new GridLayout(5, 4);
-	
+
 }
