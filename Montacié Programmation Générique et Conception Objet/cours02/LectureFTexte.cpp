@@ -3,16 +3,16 @@
  * @author montacie
  * @brief Lecture d'un fichier texte (avec tableau de char)
  * @version 1 29/12/05
- * SProgrammation générique et conception objet
+ * SProgrammation gï¿½nï¿½rique et conception objet
  */
 #include <iostream>
 #include <fstream>
 using namespace std;
 
-main() {
+int main() {
 	
 	char nomFichier[255];
-	cout << "Nom du fichier texte à lire\n";
+	cout << "Nom du fichier texte ï¿½ lire\n";
 	cout << "(donnez le chemin du projet au fichier) :\n" ;
 	cin.getline(nomFichier, 255);  // extraction du rc
 	
