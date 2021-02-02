@@ -66,6 +66,8 @@
                         <entry excluding="cours08|cours06|cours05|cours04|cours03|cours02|cours01|tp01" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         						
                         <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="cours01"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="cours02"/>
                         					
                     </sourceEntries>
                     				
