@@ -157,6 +157,7 @@
                 			
             </target>
             			
+<<<<<<< HEAD
             <target name="all" path="cours03" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
                 				
                 <buildCommand>make</buildCommand>
@@ -174,6 +175,25 @@
             </target>
             			
             <target name="clean" path="cours03" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+=======
+            <target name="all" path="cours02" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
+                				
+                <buildTarget>all</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="clean" path="cours02" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+>>>>>>> branch 'master' of https://github.com/LangueetInformatique/Montacie
                 				
                 <buildCommand>make</buildCommand>
                 				
