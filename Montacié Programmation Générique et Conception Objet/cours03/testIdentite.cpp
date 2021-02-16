@@ -1,7 +1,7 @@
 /*
  * testIdentite.cpp
  *
- *  Created on: 1 févr. 2016
+ *
  *      Author: montacie
  */
 

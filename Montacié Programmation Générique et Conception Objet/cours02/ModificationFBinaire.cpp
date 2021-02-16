@@ -2,7 +2,7 @@
  * @file ModificationFBinaire.cpp
  * @author l'equipe pedagogique
  * @brief Modification d'un fichier binaire
- * @version 1 - 23/12/15
+ *
  * Structures de donnees et algorithmes
  */
 #include <iostream>

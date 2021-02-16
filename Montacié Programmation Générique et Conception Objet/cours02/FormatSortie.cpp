@@ -2,7 +2,7 @@
  * @file EcritureFTexte.cpp
  * @author montacie
  * @brief Test de manipulateurs
- * Programmation générique et conception objet
+ * Programmation generique et conception objet
  */
 #include <iostream>
 #include <iomanip> 
@@ -17,13 +17,13 @@ int main() {
 	cout << showpos;
 	cout << right << setfill('.');
 	cout << fixed;
-	cout << "Format défini par manipulateurs :" << endl;
+	cout << "Format defini par manipulateurs :" << endl;
 	for (int i=0; i<3; i++) {
 		cout << setw(10) << val[i] << endl;
 	}
 	cout << noshowpos;
 	// restauration de la configuration initiale
-	cout << "Format par défaut :" << setiosflags(old)<< endl;
+	cout << "Format par defaut :" << setiosflags(old)<< endl;
 	for (int i=0; i<3; i++) {
 		cout << val[i] << endl;
 	}

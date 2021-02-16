@@ -2,7 +2,7 @@
  * @file EcritureFBinaire.cpp
  * @author montacie
  * @brief Ecriture d'un fichier binaire
- * @version 1 29/12/14
+ *
  * Programmation generique et conception objet
  */
 #include <iostream>

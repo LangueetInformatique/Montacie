@@ -6,14 +6,14 @@
 /*
  * Animal.h
  *
- * Created on 25 octobre 2002, 17:30
+ *
  */
 
 #include <iostream>
 #include <string>
 using namespace std;
 
-/** Création et gestion d'animaux
+/** Crï¿½ation et gestion d'animaux
  * @author montacie
  */
 class Animal {
@@ -21,13 +21,13 @@ private:
 	string espece;
     int nb_pattes;
 public:
-    /** création d'une nouvelle instance de la classe Animal
-     * @param type nom de l'espèce
+    /** crï¿½ation d'une nouvelle instance de la classe Animal
+     * @param type nom de l'espï¿½ce
      * @param pattes nombre de pattes
      */
     Animal(string type, int pattes);
     
-    /** présentation des caractéristiques de l'animal
+    /** prï¿½sentation des caractï¿½ristiques de l'animal
      */
     void presente();
 

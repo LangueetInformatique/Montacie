@@ -1,9 +1,9 @@
 /**
  * @file Minimum.h
  * @author montacie
- * @brief Patron de fonctions Minimul
- * @version 1 29/01/06
- * Programmation générique et conception objet
+ * @brief Patron de fonctions Minimum
+ *
+ * Programmation generique et conception objet
  */
 
 #ifndef MINIMUM_H_

@@ -3,7 +3,7 @@
 
 #endif /*MAXIMUMTABLEAU_H_*/
 
-// Fonction template prenant en paramètre un tableau d'Item et sa taille
+// Fonction template prenant en parametre un tableau d'Item et sa taille
 // et un foncteur :
 template <typename T, typename F>
 int MaximumTableau(T t, int taille, F foncteurCmp) {

@@ -2,8 +2,8 @@
  * @file LectureNonRobuste.cpp
  * @author montacie
  * @brief exemple de lecture non robuste
- * @version 1 29/12/05
- * Programmation générique et conception objet
+ *
+ * Programmation generique et conception objet
  */
 #include <iostream>
 #include <fstream>
