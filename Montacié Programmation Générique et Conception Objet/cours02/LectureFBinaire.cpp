@@ -2,7 +2,7 @@
  * @file LectureFBinaire.cpp
  * @author montacie
  * @brief Lecture d'un fichier binaire
- * @version 1 - 23/12/15
+ * @version 1 - 23/12/21
  * Programmation generique et conception objet
  */
 #include <iostream>

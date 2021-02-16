@@ -7,7 +7,7 @@ int main() {
 	Animal a("oiseaux", 2);
     a.presente();
     a.crie();
-	Chat ch("Félix");
+	Chat ch("FÃ©lix");
     ch.presente();
     ch.crie();
 
