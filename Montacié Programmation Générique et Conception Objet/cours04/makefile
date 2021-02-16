@@ -7,7 +7,7 @@ testMinimum.o: testMinimum.cpp Minimum.h
 	g++ -std=c++0x -c -g testMinimum.cpp
 	
 Point: Point.cpp
-	g++ -std=c++0x -g Point.cpp -o Point.exe
+	g++ -std=c++0x -g Point.cpp -o Point
 
 testTableauDyn: testTableauDyn.o ../cours01/Etudiant.o
 	g++ -std=c++0x -g testTableauDyn.o ../cours01/Etudiant.o ../cours03/Identite.o -o testTableauDyn

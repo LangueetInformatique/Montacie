@@ -1,7 +1,7 @@
 /*
  * Identite.cpp
  *
- *
+ *  Created on: 1 févr. 2016
  *      Author: montacie
  */
 
@@ -19,6 +19,15 @@ Identite::Identite () {nom_ = ""; prenom_ = "";}
 // accesseurs
 string Identite::nom () const {return nom_;}
 string Identite::prenom () const {return prenom_;}
+
+// définition de compareTo
+int Identite::compareTo (const Identite & y) const {
+	if (nom().compare(y.nom()) < 0) return -1;
+	if (nom().compare(y.nom()) > 0) return 1;
+	if (prenom().compare(y.prenom()) < 0) return -1;
+	if (prenom().compare(y.prenom()) > 0) return 1;
+	return 0;
+}
 
 // redefinition de l'operateur +
 bool Identite::operator == (const Identite & y) const {
