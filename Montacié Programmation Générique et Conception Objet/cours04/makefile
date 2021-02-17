@@ -24,8 +24,8 @@ testTableauDyn2Chat: testTableauDyn2Chat.cpp ../cours03/Chat.o ../cours03/Felin.
 testSofstream : testSofstream.cpp ../cours03/Animal.o
 	g++ -std=c++0x -g testSofstream.cpp ../cours03/Animal.o -o testSofstream
 	
-testTableauDynQ : testTableauDynQ.cpp ../tp01/Date.o ../Cours01/Etudiant.o
-	g++ -std=c++0x -g testTableauDynQ.cpp ../tp01/Date.o ../cours01/Etudiant.o -o testTableauDyn2
+testTableauDynQ : testTableauDynQ.cpp 
+	g++ -std=c++0x -g testTableauDynQ.cpp ../tp01/date.o ../cours01/Etudiant.o -o testTableauDyn2
 
 testMaximumTableauIdentite.o: testMaximumTableauIdentite.cpp MaximumTableau.h compareTo.h 
 	g++ -std=c++0x -w -g -c testMaximumTableauIdentite.cpp

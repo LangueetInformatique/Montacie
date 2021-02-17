@@ -3,8 +3,8 @@
 using namespace std;
 
 #include "TableauDyn.h"
-#include "../tp01/Date.h"
-#include "../Cours01/Etudiant.h"
+#include "../tp01/date.h"
+#include "../cours01/Etudiant.h"
 
 template <typename U, typename T> class TableauDynQ : public TableauDyn<T> {
 	protected:
@@ -18,9 +18,9 @@ template <typename U, typename T> class TableauDynQ : public TableauDyn<T> {
 int main() {
 	Etudiant Pascal;
 	Pascal.putnote(3, 15);
-	Date d(30,4,2006);
+	date d(30,4,2006);
 	
-	TableauDynQ<Etudiant, Date> tq(0,1, Pascal);
+	TableauDynQ<Etudiant, date> tq(0,1, Pascal);
 	tq.ecrire(0, d);
 	tq.getQuality();
 	
