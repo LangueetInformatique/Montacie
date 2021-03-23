@@ -56,7 +56,7 @@ public class DemandeConnexion {
 	
 	// Communication
 	try {
-	pw.println("d�but de la communication");
+	pw.println("début de la communication");
 	String ligne = br.readLine();
 	System.out.println(ligne);
 	}
