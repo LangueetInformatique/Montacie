@@ -1,7 +1,7 @@
 #include <iostream>
-#include <functional>
+#include <algorithm>
 #include <deque>
-#include "../tp03/Date.h"
+#include "Date.h"
 using namespace std;
 
 template<typename T> class ecrire {

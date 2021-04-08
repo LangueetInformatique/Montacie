@@ -3,7 +3,7 @@
 #include <list>
 #include <iterator>
 
-#include "../tp03/Date.h"
+#include "Date.h"
 
 using namespace std;
 int main() {
@@ -17,7 +17,7 @@ int main() {
 	ld.push_front(*new Date(29, 8, 1842));
 	ld.push_front(*new Date(24, 4, 1617));
 	
-	// écriture d'une liste dans un fichier
+	// ï¿½criture d'une liste dans un fichier
 	ofstream flotOut("Cours 08/Date.txt");				
 	ostream_iterator<Date> out_it(flotOut);
 	copy(ld.begin(), ld.end(), out_it);

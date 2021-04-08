@@ -16,7 +16,7 @@ int main() {
 	do {
 		L.push_front(today);
 		++today;
-	} while (today <= dfin);
+	} while (today != dfin);
 
 	// 1ere version
 	for (it = L.begin(); it != L.end(); it++)

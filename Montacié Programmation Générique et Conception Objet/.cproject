@@ -100,8 +100,6 @@
                         <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="cours07"/>
                         						
                         <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="cours08"/>
-                        						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="tp01"/>
                         					
                     </sourceEntries>
                     				
@@ -139,6 +137,8 @@
                 				
                 <buildCommand>make</buildCommand>
                 				
+                <buildArguments/>
+                				
                 <buildTarget>all</buildTarget>
                 				
                 <stopOnError>true</stopOnError>
@@ -152,6 +152,8 @@
             <target name="clean" path="cours01" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
                 				
                 <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
                 				
                 <buildTarget>clean</buildTarget>
                 				
@@ -167,6 +169,8 @@
                 				
                 <buildCommand>make</buildCommand>
                 				
+                <buildArguments/>
+                				
                 <buildTarget>all</buildTarget>
                 				
                 <stopOnError>true</stopOnError>
@@ -180,6 +184,8 @@
             <target name="clean" path="cours02" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
                 				
                 <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
                 				
                 <buildTarget>clean</buildTarget>
                 				
@@ -195,6 +201,8 @@
                 				
                 <buildCommand>make</buildCommand>
                 				
+                <buildArguments/>
+                				
                 <buildTarget>all</buildTarget>
                 				
                 <stopOnError>true</stopOnError>
@@ -208,6 +216,8 @@
             <target name="clean" path="cours03" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
                 				
                 <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
                 				
                 <buildTarget>clean</buildTarget>
                 				
@@ -223,6 +233,8 @@
                 				
                 <buildCommand>make</buildCommand>
                 				
+                <buildArguments/>
+                				
                 <buildTarget>all</buildTarget>
                 				
                 <stopOnError>true</stopOnError>
@@ -236,6 +248,8 @@
             <target name="clean" path="cours04" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
                 				
                 <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
                 				
                 <buildTarget>clean</buildTarget>
                 				
@@ -251,8 +265,6 @@
                 				
                 <buildCommand>make</buildCommand>
                 				
-                <buildArguments/>
-                				
                 <buildTarget>all</buildTarget>
                 				
                 <stopOnError>true</stopOnError>
@@ -263,23 +275,7 @@
                 			
             </target>
             			
-            <target name="all" path="td01" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-                				
-                <buildCommand>make</buildCommand>
-                				
-                <buildArguments/>
-                				
-                <buildTarget>all</buildTarget>
-                				
-                <stopOnError>true</stopOnError>
-                				
-                <useDefaultCommand>true</useDefaultCommand>
-                				
-                <runAllBuilders>true</runAllBuilders>
-                			
-            </target>
-            			
-            <target name="clean" path="tp01" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+            <target name="clean" path="cours05" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
                 				
                 <buildCommand>make</buildCommand>
                 				
@@ -295,11 +291,133 @@
                 			
             </target>
             			
-            <target name="all" path="tp01" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+            <target name="all" path="cours06" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
                 				
                 <buildCommand>make</buildCommand>
                 				
                 <buildArguments/>
+                				
+                <buildTarget>all</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="clean" path="cours06" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
+                				
+                <buildTarget>clean</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="all" path="cours07" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
+                				
+                <buildTarget>all</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="clean" path="cours07" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
+                				
+                <buildTarget>clean</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="all" path="cours08" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
+                				
+                <buildTarget>all</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="clean" path="cours08" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
+                				
+                <buildTarget>clean</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="all" path="td01" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildTarget>all</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="clean" path="tp01" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildTarget>clean</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            			
+            <target name="all" path="tp01" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
                 				
                 <buildTarget>all</buildTarget>
                 				

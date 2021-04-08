@@ -1,7 +1,7 @@
-#include "../Cours 03/Animal.h"
+#include "../cours03/Animal.h"
 #include <iostream>
 #include <set>
-#include <functional>
+#include <algorithm>
 
 using namespace std;
 
